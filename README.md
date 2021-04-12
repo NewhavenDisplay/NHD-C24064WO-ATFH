@@ -1,2 +1,2 @@
 # NHD-C24064WO-ATFH
-Graphic COG
+Graphic COG Example Code for Arduino IDE!
