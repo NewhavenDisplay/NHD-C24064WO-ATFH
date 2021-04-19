@@ -1,14 +1,20 @@
 /*****************************************************************************
- 
- Program for writing to Newhaven Display's NHD - 240x64 G.LCD COG
- This code is written for the Arduino Uno.
- Copyright (c) 2021 - Newhaven Display International, Inc.
- Newhaven Display invests time and resources providing this open source code,
- please support Newhaven Display by purchasing products from Newhaven Display!
- Author: Zachary Palrang - Applications Engineer
- 
- *****************************************************************************/
- 
+* Program for writing to Newhaven Display NHD-C24064WO-ATFH#-3V3 with Dual-ST7565S controller.
+* This code is written for the Arduino Due (AT91SAM3X8E) in 6800 Mode 8-Bit Parallel Interface
+* 
+* Newhaven Display invests time and resources providing this open source code,
+* Please support Newhaven Display by purchasing products from Newhaven Display!
+*
+* Copyright: Z Palrang (c) 2021, Newhaven Display International
+*
+* This code is provided as an example only and without any warranty by Newhaven Display. 
+* Newhaven Display accepts no responsibility for any issues resulting from its use. 
+* The developer of the final application incorporating any parts of this 
+* sample code is responsible for ensuring its safe and correct operation
+* and for any consequences resulting from its use.
+* See the GNU General Public License for more details. 
+*****************************************************************************/
+
 #define P1 22
 #define P2 23
 #define P3 24
